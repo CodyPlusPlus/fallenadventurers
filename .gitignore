@@ -114,3 +114,8 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+.vscode/settings.json
+falladvsite/.vscode/launch.json
+falladvsite/.vscode/settings.json
+falladvsite/.vscode/launch.json
+falladvsite/.vscode/settings.json
