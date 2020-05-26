@@ -4,12 +4,12 @@
 {% for stone in gravestones %}
     <article class="media content-section">
     <div class="media-body">
-        <h2 class="stone-name">{{ stone.adventurer_name }}</h2>
-        <h3 class="stone-classrace">{{stone.race}} {{stone.class}}</h3>
-        <p class="stone-content">{{ stone.enscript }}</p>
+        <h2 class="stone-name">{{ stone.name }}</h2>
+        <h3 class="stone-classrace">{{stone.race}} {{stone.charclass}}</h3>
+        <p class="stone-content">{{ stone.enscription }}</p>
         <div class="stone-metadata">
-        <small class="text-muted">Stone created on {{ stone.date_posted }}
-            by <a class="mr-2" href="#">{{stone.player}}</a></small>
+        <small class="text-muted">Stone created on {{ stone.date_created|date:'F d, Y' }}
+            by <a class="mr-2" href="#">{{stone.createdby}}</a></small>
         </div>
     </div>
     </article>
